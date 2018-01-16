@@ -5,7 +5,7 @@ $cracked = 0;
 echo "<table border='1' cellspacing='0' cellpadding='5'>";
 $tabindex = 0;
 $bigI = ["x" => 0, "y" => 0];
-$start_from = $_GET['index'] || 326;
+$start_from = $_GET['index'] or die('');
 $fname = date('U') . '_' . rand(1111, 9999);
 
 for ($f = $start_from; $f < $start_from + 30; $f++) {

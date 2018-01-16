@@ -1,16 +1,19 @@
 <?php
 
-$bigI = ["x" => 0, "y" => 0];
-$fname = date('U') . '_' . rand(1111, 9999);
-$file = base64_decode($_REQUEST['image']);
+if( ! isset($_POST['image']) ) die('Send Image');
 
+$fname = date('U') . '_' . rand(1111, 9999);
+$file = base64_decode($_POST['image']);
 $fim = imagecreatefromstring($file);
+//header('content-type: image/jpeg');
+//imagejpeg($fim);
+
 $fx = imagesx($fim);
 $fy = imagesy($fim);
 $im = imagecreatetruecolor(180, 45);
 imagecopyresampled($im, $fim, 0, 0, 20, 0, 180, 45, 180, 45);
 
-// imagejpeg($im, 'captcha.jpg');
+imagejpeg($im, 'captcha.jpg');
 
 imagefilter($im, IMG_FILTER_NEGATE);
 $data = [];
@@ -64,7 +67,7 @@ for ($i = 0; $i < count($crop_x) - 1 && $i < 6; $i++) {
     $letter = imagecreatetruecolor($w, imagesy($im));
 
     imagecopyresampled($letter, $im, 0, 0, $crop_x[$i], 0, $w, imagesy($im), $w, imagesy($im));
-    // imagejpeg($letter, './steps/ltr-' . $i . '.jpg');
+    imagejpeg($letter, './steps/ltr-' . $i . '.jpg');
     imagefilter($letter, IMG_FILTER_NEGATE);
     $white = imagecolorallocate($im, 255, 255, 255);
 
@@ -85,9 +88,7 @@ for ($i = 0; $i < count($crop_x) - 1 && $i < 6; $i++) {
     imagedestroy($letter);
 }
 
-$output = [];
-exec('python predict.py '.$fname, $output);
-foreach ($output as $line) { echo $line; }
+echo shell_exec('python /home/admin/web/c.vits.me/public_html/predict.py '.$fname.' 2>&1');
 
 function get_pixels($im)
 {
