@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a648e4e3-c244-4a6e-9938-a0310621693c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/adidas_shoes.txt" afterPath="$PROJECT_DIR$/scrap/adidas_shoes.txt" />
-      <change beforePath="$PROJECT_DIR$/amazon.php" afterPath="$PROJECT_DIR$/scrap/amazon.php" />
-      <change beforePath="$PROJECT_DIR$/amazon.pkl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/amazon_p.php" afterPath="$PROJECT_DIR$/scrap/amazon_p.php" />
-      <change beforePath="$PROJECT_DIR$/img_m.php" afterPath="$PROJECT_DIR$/scrap/img_m.php" />
-      <change beforePath="$PROJECT_DIR$/predict.py" afterPath="$PROJECT_DIR$/predict.py" />
-      <change beforePath="$PROJECT_DIR$/prediction.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/python/amazon.pkl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/python/predict.py" afterPath="$PROJECT_DIR$/python/predict.py" />
-      <change beforePath="$PROJECT_DIR$/python/test.py" afterPath="$PROJECT_DIR$/python/test.py" />
-      <change beforePath="$PROJECT_DIR$/run.php" afterPath="$PROJECT_DIR$/scrap/run.php" />
-    </list>
+    <list default="true" id="a648e4e3-c244-4a6e-9938-a0310621693c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,18 +13,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,6 +26,7 @@
     <findStrings>
       <find>pixels1</find>
       <find>console</find>
+      <find>amazon</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,18 +148,17 @@
       <updated>1516004860328</updated>
       <workItem from="1516004862030" duration="9404000" />
       <workItem from="1516028582067" duration="1307000" />
-      <workItem from="1516051734870" duration="21813000" />
+      <workItem from="1516051734870" duration="22155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32524000" />
+    <option name="totallyTimeSpent" value="32866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -233,12 +208,6 @@
             <marker date="1516135662970" expanded="true" signature="4127:4137" ph="..." />
             <marker date="1516135662970" expanded="true" signature="4229:4252" ph="data:" />
             <marker date="1516135662970" expanded="true" signature="4397:4407" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="4621:4963" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="4860:4877" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="4899:4963" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="7305:7360" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="7317:7352" ph="{...}" />
-            <marker date="1516135662970" expanded="true" signature="7407:10609" ph="..." />
           </folding>
         </state>
       </provider>
@@ -261,12 +230,6 @@
             <marker date="1516135662970" expanded="true" signature="4127:4137" ph="..." />
             <marker date="1516135662970" expanded="true" signature="4229:4252" ph="data:" />
             <marker date="1516135662970" expanded="true" signature="4397:4407" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="4621:4963" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="4860:4877" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="4899:4963" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="7305:7360" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="7317:7352" ph="{...}" />
-            <marker date="1516135662970" expanded="true" signature="7407:10609" ph="..." />
           </folding>
         </state>
       </provider>
@@ -376,42 +339,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/save_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datasets/d4.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
           <caret line="655" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="655" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/letters_in_image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="n#remove_white_padding#0;n#!!top" expanded="false" />
-            <marker date="1516135662970" expanded="true" signature="2116:2139" ph="data:" />
-            <marker date="1516135662970" expanded="true" signature="3646:3669" ph="data:" />
-            <marker date="1516135662970" expanded="true" signature="3845:3855" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="3959:3982" ph="data:" />
-            <marker date="1516135662970" expanded="true" signature="4127:4137" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="4229:4252" ph="data:" />
-            <marker date="1516135662970" expanded="true" signature="4397:4407" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="4621:4963" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="4860:4877" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="4899:4963" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="7305:7360" ph="..." />
-            <marker date="1516135662970" expanded="true" signature="7317:7352" ph="{...}" />
-            <marker date="1516135662970" expanded="true" signature="7407:10609" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,10 +363,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/predict.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="60">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -450,11 +398,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letters_in_image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="n#remove_white_padding#0;n#!!top" expanded="false" />
+            <marker date="1516135662970" expanded="true" signature="2116:2139" ph="data:" />
+            <marker date="1516135662970" expanded="true" signature="3646:3669" ph="data:" />
+            <marker date="1516135662970" expanded="true" signature="3845:3855" ph="..." />
+            <marker date="1516135662970" expanded="true" signature="3959:3982" ph="data:" />
+            <marker date="1516135662970" expanded="true" signature="4127:4137" ph="..." />
+            <marker date="1516135662970" expanded="true" signature="4229:4252" ph="data:" />
+            <marker date="1516135662970" expanded="true" signature="4397:4407" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
