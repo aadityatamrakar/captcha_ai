@@ -1,0 +1,7 @@
+{
+    "require": {
+        "dunglas/php-torcontrol": "^1.0",
+        "fabpot/goutte": "^3.2",
+        "stefangabos/zebra_curl": "^1.3"
+    }
+}
