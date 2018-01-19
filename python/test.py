@@ -20,3 +20,12 @@ clf.fit(xtrain, train_label)
 # print(output)
 
 joblib.dump(clf, 'model.pkl')
+
+
+# Python
+# Dataframes Pandas 
+
+# Grid Search 
+# PCA - SVM best case
+# SVM - 
+# NB  - Naive Bayes

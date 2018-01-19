@@ -1,4 +1,7 @@
 <?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Method: GET, POST');
+header('Access-Control-Request-Method: GET, POST');
 
 if( ! isset($_POST['image']) ) die('Send Image');
 
@@ -81,14 +84,14 @@ for ($i = 0; $i < count($crop_x) - 1 && $i < 6; $i++) {
     $letter = remove_white_padding($letter);
 
     $pixel_data = get_pixels($letter);
-    if ($bigI['x'] < imagesx($letter)) $bigI['x'] = imagesx($letter);
-    if ($bigI['y'] < imagesy($letter)) $bigI['y'] = imagesy($letter);
 
     fputcsv($handle, $pixel_data);
     imagedestroy($letter);
 }
 
 echo shell_exec('python /home/admin/web/c.vits.me/public_html/predict.py '.$fname.' 2>&1');
+
+// echo shell_exec('python predict.py '.$fname);
 
 function get_pixels($im)
 {
